@@ -1,0 +1,68 @@
+#proxy {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 0.01fr 0.11fr 0.05fr 0.01fr 0.6fr 0.14fr;
+    grid-template-areas: 
+                        "ellis1 ellis1 ellis1"
+                        "poli aaron laura"
+                        "emilio emilio emilio"
+                        "martin martin martin"
+                        "zach zach zach"
+                        "ellis2 ellis2 ellis2"
+    ;
+}
+
+#ellis1 {
+    grid-area: ellis1;
+    width: 100%;
+    /* background-color: aqua; */
+    border: 1px dotted black;
+    max-height: 6.25em;
+}
+#laura{
+    grid-area: laura;
+    width: 100%;
+    /* background-color: purple; */
+    border: 1px dotted black;
+    max-height: 53em;
+}
+#poli{
+    grid-area: poli;
+    width: 100%;
+    background-color: blue;
+    border: 1px dotted black;
+    max-height: 53em;
+}
+#aaron{
+    grid-area: aaron;
+    width: 100%;
+    /* background-color: red; */
+    border: 1px dotted black;
+    max-height: 53em;
+}
+#emilio{
+    grid-area: emilio;
+    width: 100%;
+    /* background-color: darksalmon; */
+    border: 1px dotted black;
+    max-height: 22em;
+}
+#martin{
+    grid-area: martin;
+    width: 100%;
+    /* background-color: rgb(255, 0, 179); */
+    border: 1px dotted black;
+    max-height: 47em;
+}
+#zach{
+    grid-area: zach;
+    width: 100%;
+    max-height: 280em;
+}
+#ellis2{
+    grid-area: ellis2;
+    width: 100%;
+    background-color: aqua;
+    border: 1px dotted black;
+    max-height: 67em;
+}

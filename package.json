@@ -1,0 +1,23 @@
+{
+  "name": "price_component_proxy_server",
+  "version": "1.0.0",
+  "description": "Proxy Server for Nozama Price Component. Author: Laura Evans",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauraevans0218/priceComponent_ProxyServer.git"
+  },
+  "keywords": [],
+  "author": "Laura Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauraevans0218/priceComponent_ProxyServer"
+  },
+  "homepage": "https://github.com/lauraevans0218/priceComponent_ProxyServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
