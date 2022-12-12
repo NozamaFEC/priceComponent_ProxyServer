@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/lauraevans0218/priceComponent_ProxyServer#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
